@@ -25,11 +25,41 @@
       <div id="navigation">
           <!-- Navigation Menu-->
           <ul class="navigation-menu">
-            {%- for entry in navPages %}
-              <li>
-                <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+              <li><a href="javascript:void(0)">Giới thiệu</a></li>
+              <li class="has-submenu">
+                  <a href="javascript:void(0)">Giải Pháp Cấp Khí Tươi</a><span class="menu-arrow"></span>
+                  <ul class="submenu">
+                      <li><a href="javascript:void(0)">Hệ Thống Lọc & Cấp Khí Tươi Trung Tâm CyberVent</a></li>
+                      <li><a href="javascript:void(0)">Máy Lọc & Cấp Khí Tươi SmartVent</a></li>
+                  </ul>
               </li>
-            {%- endfor %}
-          </ul>
+              <li class="has-submenu">
+                  <a href="javascript:void(0)">Giải Pháp Lọc Không Khí</a><span class="menu-arrow"></span>
+                  <ul class="submenu">
+                      <li class="has-submenu"><a href="javascript:void(0)">Máy Lọc Tuần Hoàn <span class="badge badge-primary rounded">Added</span></a><span class="submenu-arrow"></span>
+                          <ul class="submenu">
+                              <li><a href="javascript:void(0)">S9</a></li>
+                              <li><a href="/ai-300-600.html">AI-300/600 <span class="badge badge-success rounded">New</span></a></li>
+                              <li><a href="javascript:void(0)">AI-660</a></li>
+                              <li><a href="javascript:void(0)">AI-700</a></li>
+                              <li><a href="javascript:void(0)">AI-730</a></li>
+                          </ul> 
+                      </li>
+                      <li><a href="javascript:void(0)">Máy Lọc Không Khí Mini</a></li>
+                  </ul>
+              </li>
+              <li class="has-submenu">
+                  <a href="javascript:void(0)">Blog</a><span class="menu-arrow"></span>
+                  <ul class="submenu">
+                      <li><a href="javascript:void(0)">Máy lọc không khí</a></li>
+                      <li><a href="javascript:void(0)">Máy cấp khí tươi</a></li>
+                      <li><a href="javascript:void(0)">Máy tạo độ ẩm</a></li>
+                      <li><a href="javascript:void(0)">Mẹo vặt - Kinh nghiệm</a></li>
+                      <li><a href="javascript:void(0)">Dự án hoàn thành</a></li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Liên Hệ</a></li>
+          </ul><!--end navigation menu-->
       </div><!--end navigation-->
   </div><!--end container-->
+</header><!--end header-->

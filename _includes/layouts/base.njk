@@ -5,12 +5,7 @@
 
 	<body>
 
-		<header id="topnav" class="defaultscroll sticky">
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+		{% include "components/nav.njk" %}
 
 		<main>
 			{{ layoutContent | safe }}
