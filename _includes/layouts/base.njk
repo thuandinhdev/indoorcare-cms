@@ -4,7 +4,13 @@
 	{% include "components/head.njk" %}
 
 	<body>
-		{% include "components/nav.njk" %}
+
+		<header id="topnav" class="defaultscroll sticky">
+			<em>
+				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+			</em>
+			{% include "components/nav.njk" %}
+		</header>
 
 		<main>
 			{{ layoutContent | safe }}
